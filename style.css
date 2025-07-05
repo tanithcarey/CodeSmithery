@@ -5,9 +5,10 @@
   box-sizing: border-box;
 }
 
+/* Body */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f8fc;
+  background-color: #f1f4f8;
   color: #333;
   line-height: 1.6;
 }
@@ -15,94 +16,52 @@ body {
 /* Header */
 .header {
   background-color: #004c97;
-  padding: 20px;
+  color: white;
   text-align: center;
-  color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 30px 20px;
+  border-bottom: 4px solid #003366;
 }
 
 .header h1 {
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
-.header .btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #ff3c3c;
+.btn {
+  background-color: #e60000;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  padding: 12px 24px;
+  border-radius: 4px;
   font-weight: bold;
+  display: inline-block;
   margin-top: 10px;
   transition: background 0.3s ease;
 }
 
-.header .btn:hover {
-  background-color: #cc2e2e;
+.btn:hover {
+  background-color: #cc0000;
 }
 
-/* Main Content */
+/* Content Container */
 .content {
-  max-width: 900px;
+  max-width: 950px;
   margin: 40px auto;
-  padding: 30px;
+  padding: 30px 40px;
   background-color: #ffffff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
   border-radius: 8px;
 }
 
-.content article {
-  padding: 10px;
-}
-
+/* Typography */
 .content h2 {
-  color: #004c97;
   font-size: 26px;
+  color: #004c97;
   margin-bottom: 20px;
 }
 
 .content h3 {
-  color: #003b78;
   font-size: 22px;
+  color: #003a75;
   margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-.content h4 {
-  color: #004b8d;
-  font-size: 18px;
-  margin-top: 20px;
-}
-
-.content p {
   margin-bottom: 15px;
-  font-size: 16px;
-}
-
-.content ul {
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.content li {
-  margin-bottom: 8px;
-}
-
-.content a {
-  color: #004c97;
-  text-decoration: underline;
-}
-
-.content a:hover {
-  text-decoration: none;
-}
-
-/* Footer */
-.footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #eaeaea;
-  font-size: 14px;
-  margin-top: 40px;
-}
